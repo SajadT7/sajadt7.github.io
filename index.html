@@ -1,1 +1,37 @@
+<link rel="stylesheet" href="/assets/css/style.css">
 
+<div class="container">
+
+  <div class="topbar">
+    <div class="brand">Sajad Tahavori</div>
+    <div class="nav">
+      <a href="/research">Research</a>
+      <a href="/teaching">Teaching</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <img src="/img/profile.jpg" alt="Profile photo">
+    <div class="bio">
+      <h1>Welcome!</h1>
+      <p class="muted small">
+        I am a Ph.D. student in Economics at the University of California, Santa Cruz.
+      </p>
+      <p class="small">
+        My research interests are in applied econometrics and public economics, with a focus on
+        immigration enforcement, labor markets, and crime-related school choice.
+      </p>
+      <p class="small">
+        <b>Email:</b> stahavor@ucsc.edu
+      </p>
+    </div>
+  </div>
+
+  <div class="footer">
+    © <span id="y"></span> Sajad Tahavori
+  </div>
+</div>
+
+<script>
+  document.getElementById("y").textContent = new Date().getFullYear();
+</script>
