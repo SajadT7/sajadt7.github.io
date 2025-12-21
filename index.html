@@ -1,12 +1,124 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sajad Tahavori | PhD Economics</title>
+  <meta name="description" content="Sajad Tahavori — Ph.D. student in Economics. Research in applied econometrics, public economics, labor, immigration enforcement, and crime." />
+  <style>
+    :root { --max: 860px; --muted:#555; --border:#e6e6e6; }
+    body { margin:0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif; line-height:1.55; color:#111; background:#fff; }
+    .wrap { max-width: var(--max); margin: 0 auto; padding: 42px 18px; }
+    header { display:flex; justify-content:space-between; gap:16px; align-items:flex-start; border-bottom:1px solid var(--border); padding-bottom:18px; margin-bottom:26px; }
+    h1 { font-size: 28px; margin:0; letter-spacing:0.2px; }
+    .sub { margin-top:6px; color: var(--muted); }
+    nav a { margin-left:14px; text-decoration:none; color:#111; }
+    nav a:hover { text-decoration:underline; }
+    section { margin: 26px 0; }
+    h2 { font-size: 18px; margin: 0 0 10px 0; }
+    ul { margin: 8px 0 0 18px; }
+    .paper { margin: 10px 0 14px 0; }
+    .paper b { display:block; }
+    .links a { margin-right: 10px; }
+    .muted { color: var(--muted); }
+    footer { border-top:1px solid var(--border); margin-top:30px; padding-top:14px; color: var(--muted); font-size: 13px; }
+    .pill { display:inline-block; padding:2px 8px; border:1px solid var(--border); border-radius:999px; font-size:12px; margin-left:6px; color:var(--muted); }
+  </style>
 </head>
+
 <body>
-  <h1>Sajad Tahavori</h1>
-  <p>Ph.D. student in Economics, UC Santa Cruz.</p>
-  <p><a href="cv.pdf">CV (PDF)</a></p>
+  <div class="wrap">
+
+    <header>
+      <div>
+        <h1>Sajad Tahavori</h1>
+        <div class="sub">Ph.D. student in Economics, University of California, Santa Cruz</div>
+        <div class="sub muted">Applied Econometrics • Public • Labor • Immigration Enforcement • Crime</div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#teaching">Teaching</a>
+        <a href="#cv">CV</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>
+        I am a Ph.D. student in Economics at UC Santa Cruz. My research uses causal inference methods and
+        large-scale administrative data to study how government policies affect local labor markets and
+        demographic outcomes, with ongoing work on immigration enforcement and crime-related school choice.
+      </p>
+    </section>
+
+    <section id="research">
+      <h2>Research</h2>
+
+      <div class="paper">
+        <b>The Effect of Immigration Enforcement on Demographic Composition and Labor Market Outcomes <span class="pill">Working Paper (2025)</span></b>
+        <div class="muted">Keywords: immigration enforcement, labor markets, causal inference, panel data</div>
+        <div class="links">
+          <a href="papers/immigration_enforcement.pdf">PDF</a>
+          <a href="slides/immigration_enforcement_slides.pdf">Slides</a>
+          <a href="https://github.com/YOUR_GITHUB_USERNAME">Code</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <b>Crime Risk, School Choice, and Enrollment: A Structural Analysis <span class="pill">Working Paper (2025)</span></b>
+        <div class="muted">Keywords: crime, school choice, structural modeling</div>
+        <div class="links">
+          <a href="papers/crime_school_choice.pdf">PDF</a>
+          <a href="slides/crime_school_choice_slides.pdf">Slides</a>
+        </div>
+      </div>
+
+      <div class="paper">
+        <b>Heterogeneity in Household Energy Income Elasticity Using Quantile Panel-IV <span class="pill">Master’s Thesis (2022)</span></b>
+        <div class="muted">Keywords: energy demand, heterogeneity, quantile IV</div>
+        <div class="links">
+          <a href="papers/energy_quantile_iv.pdf">PDF</a>
+        </div>
+      </div>
+
+      <p class="muted">Tip: create folders <code>papers/</code> and <code>slides/</code> in your repo and upload PDFs there.</p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+      <ul>
+        <li>Introduction to Econometrics (ECON 113), Fall 2024</li>
+        <li>Intermediate Microeconomics (ECON 100A), Winter 2025, Summer 2025</li>
+        <li>Is There Truth in Numbers (ECON 104), Fall 2025</li>
+        <li>Introduction to Macroeconomics (ECON 2), Winter 2024, Summer 2024, Summer 2025</li>
+      </ul>
+    </section>
+
+    <section id="cv">
+      <h2>CV</h2>
+      <p><a href="cv.pdf">Download CV (PDF)</a></p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Email: <a href="mailto:stahavor@ucsc.edu">stahavor@ucsc.edu</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/sajad-tahavoi/">sajad-tahavoi</a></li>
+        <li>GitHub: <a href="https://github.com/YOUR_GITHUB_USERNAME">YOUR_GITHUB_USERNAME</a></li>
+      </ul>
+    </section>
+
+    <footer>
+      © <span id="y"></span> Sajad Tahavori · Built with GitHub Pages
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
