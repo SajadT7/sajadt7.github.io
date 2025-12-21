@@ -1,80 +1,142 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sajad Tahavori</title>
-  <style>
-    :root { --max: 900px; --muted:#444; --rule:#e6e6e6; --link:#1a0dab; }
-    body{
-      margin:0; background:#fff; color:#111;
-      font-family:"Times New Roman", Times, serif;
-      font-size:18px; line-height:1.65;
-    }
-    .wrap{ max-width:var(--max); margin:0 auto; padding:28px 18px 44px; }
-    .top{
-      display:flex; justify-content:space-between; align-items:baseline; gap:14px;
-      margin-bottom:10px;
-    }
-    .name{ font-size:34px; font-weight:700; margin:0; }
-    nav a{
-      margin-left:14px; color:var(--link); text-decoration:none; font-size:16px;
-    }
-    nav a:hover{ text-decoration:underline; }
-    hr{ border:none; border-top:1px solid var(--rule); margin:12px 0 18px; }
-    .muted{ color:var(--muted); }
-    .bio{ margin-top:0; }
-    .footer{
-      margin-top:30px; padding-top:10px;
-      border-top:1px solid var(--rule);
-      color:var(--muted); font-size:15px;
-    }
-    /* optional: small, neat list spacing */
-    ul{ margin:8px 0 0 22px; }
-
-    /* mobile */
-    @media (max-width: 640px){
-      .top{ flex-direction:column; align-items:flex-start; }
-      nav a{ margin-left:0; margin-right:14px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="wrap">
-    <div class="top">
-      <h1 class="name">Sajad Tahavori</h1>
-      <nav>
-        <a href="research.html">Research</a>
-        <a href="teaching.html">Teaching</a>
-        <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+    <!-- Skip Links -->
+    <a href="#site-nav" class="skip-link">Skip to primary navigation</a>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <a href="#footer" class="skip-link">Skip to footer</a>
 
-    <hr />
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-branding">
+                <a href="/" class="site-title">Your Name</a>
+            </div>
+            
+            <nav id="site-nav" class="main-navigation">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#teaching">Teaching</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <p class="muted bio">
-      Ph.D. student in Economics, University of California, Santa Cruz
-    </p>
+    <!-- Main Content -->
+    <main id="main" class="site-main">
+        <div class="container">
+            <div class="intro-section">
+                <div class="profile-image">
+                    <img src="profile.svg" alt="Your Name">
+                </div>
+                
+                <div class="intro-content">
+                    <h1>Welcome!</h1>
+                    
+                    <p>I'm a [Your Title] at <a href="#">[Your Organization]</a>, with a [Your Degree] from [Your University].</p>
+                    
+                    <p>My research lies at the intersection of [Field 1], [Field 2], and [Field 3], with a particular focus on [your focus area]. I study issues related to [topic 1], [topic 2], [topic 3], and [topic 4].</p>
+                    
+                    <p>I was also a [Previous Position] at <a href="#">[Previous Organization]</a>. [Add any relevant experience or background information here].</p>
+                    
+                    <p class="contact-info">
+                        <strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    </p>
 
-    <p>
-      I am a Ph.D. student in Economics at UC Santa Cruz. My research interests are in applied
-      econometrics and public economics, with a focus on immigration enforcement, local labor markets,
-      and crime-related school choice.
-    </p>
+                    <div class="social-links">
+                        <strong>Follow:</strong>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="feed.xml" aria-label="RSS Feed">Feed</a>
+                    </div>
+                </div>
+            </div>
 
-    <p>
-      <b>Email:</b> <a href="mailto:stahavor@ucsc.edu">stahavor@ucsc.edu</a><br />
-      <b>CV:</b> <a href="cv.pdf">cv.pdf</a>
-    </p>
+            <!-- Research Section -->
+            <section id="research" class="content-section">
+                <h2>Research</h2>
+                <div class="section-content">
+                    <h3>Working Papers</h3>
+                    <ul class="publications-list">
+                        <li>
+                            <strong>Paper Title 1</strong> (with Co-author Name)<br>
+                            <em>Journal Name, Year</em><br>
+                            <a href="#">PDF</a> | <a href="#">Abstract</a>
+                        </li>
+                        <li>
+                            <strong>Paper Title 2</strong><br>
+                            <em>Conference, Year</em><br>
+                            <a href="#">PDF</a> | <a href="#">Slides</a>
+                        </li>
+                    </ul>
 
-    <div class="footer">
-      © <span id="y"></span> Sajad Tahavori
-    </div>
-  </div>
+                    <h3>Publications</h3>
+                    <ul class="publications-list">
+                        <li>
+                            <strong>Published Paper Title</strong><br>
+                            <em>Journal Name, Volume(Issue), Pages, Year</em><br>
+                            <a href="#">Link</a> | <a href="#">PDF</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
 
-  <script>
-    document.getElementById("y").textContent = new Date().getFullYear();
-  </script>
+            <!-- Teaching Section -->
+            <section id="teaching" class="content-section">
+                <h2>Teaching</h2>
+                <div class="section-content">
+                    <h3>Current Courses</h3>
+                    <ul>
+                        <li><strong>Course Name 1</strong> - University Name, Semester Year</li>
+                        <li><strong>Course Name 2</strong> - University Name, Semester Year</li>
+                    </ul>
+
+                    <h3>Past Courses</h3>
+                    <ul>
+                        <li><strong>Course Name 3</strong> - University Name, Semester Year</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section id="projects" class="content-section">
+                <h2>Projects</h2>
+                <div class="section-content">
+                    <div class="project-item">
+                        <h3>Project Title 1</h3>
+                        <p>Brief description of the project, its goals, methodology, and outcomes.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3>Project Title 2</h3>
+                        <p>Brief description of the project, its goals, methodology, and outcomes.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name</p>
+            <p><a href="terms.html">Terms &amp; Conditions</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
