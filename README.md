@@ -1,7 +1,6 @@
 # Sajad Tahavori - Academic Portfolio Website
 
-A clean, professional academic portfolio website based on the style of https://guanghongxu.github.io/
-
+A clean, professional academic portfolio website.
 ## 📁 Complete File List
 
 All files needed for your website:
