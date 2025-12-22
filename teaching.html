@@ -3,90 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teaching - Sajad Tahavori</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Teaching - Your Name</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
+    <!-- Skip Links -->
+    <a href="#site-nav" class="skip-link">Skip to primary navigation</a>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <a href="#footer" class="skip-link">Skip to footer</a>
+
+    <!-- Header -->
+    <header class="site-header">
         <div class="container">
-            <div class="nav-brand">Sajad Tahavori</div>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="research.html">Research</a></li>
-                <li><a href="teaching.html" class="active">Teaching</a></li>
-                <li><a href="files/CV.pdf">CV</a></li>
-            </ul>
+            <div class="site-branding">
+                <a href="index.html" class="site-title">Your Name</a>
+            </div>
+            
+            <nav id="site-nav" class="main-navigation">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="research.html">Research</a></li>
+                    <li><a href="teaching.html" class="active">Teaching</a></li>
+                    <li><a href="index.html#projects">Projects</a></li>
+                </ul>
+            </nav>
         </div>
-    </nav>
+    </header>
 
-    <main class="container">
-        <h1>Teaching Experience</h1>
-        
-        <!-- UC Santa Cruz -->
-        <section>
-            <h2>University of California, Santa Cruz</h2>
-            
-            <div class="teaching-item">
-                <h3>Introduction to Econometrics (ECON 113)</h3>
-                <p class="course-info">Teaching Assistant | Fall 2024</p>
+    <!-- Main Content -->
+    <main id="main" class="site-main">
+        <div class="container">
+            <div class="page-header">
+                <h1>Teaching</h1>
             </div>
 
-            <div class="teaching-item">
-                <h3>Intermediate Microeconomics (ECON 100A)</h3>
-                <p class="course-info">Teaching Assistant | Winter 2025, Summer 2025</p>
-            </div>
+            <!-- Teaching Experience Overview -->
+            <section class="content-section">
+                <h2>University of California, Santa Cruz</h2>
+                <div class="section-content teaching-simple">
+                    
+                    <h3>Undergraduate Courses</h3>
 
-            <div class="teaching-item">
-                <h3>Is There Truth in Numbers (ECON 104)</h3>
-                <p class="course-info">Teaching Assistant | Fall 2025</p>
-            </div>
+                    <h4>ECON 113: Introduction to Econometrics</h4>
+                    <ul class="course-list">
+                        <li>Fall 2024</li>
+                    </ul>
 
-            <div class="teaching-item">
-                <h3>Introduction to Macroeconomics (ECON 2)</h3>
-                <p class="course-info">Teaching Assistant | Winter 2024, Summer 2024, Summer 2025</p>
-            </div>
-        </section>
+                    <h4>ECON 100A: Intermediate Microeconomics</h4>
+                    <ul class="course-list">
+                        <li>Winter 2025</li>
+                        <li>Summer 2025</li>
+                    </ul>
 
-        <!-- Sharif University -->
-        <section>
-            <h2>Sharif University of Technology</h2>
-            
-            <div class="teaching-item">
-                <h3>Microeconomics</h3>
-                <p class="course-info">Teaching Assistant (Graduate Level) | Spring 2021</p>
-            </div>
+                    <h4>ECON 104: Is There Truth in Numbers</h4>
+                    <ul class="course-list">
+                        <li>Fall 2025</li>
+                    </ul>
 
-            <div class="teaching-item">
-                <h3>Macroeconomics</h3>
-                <p class="course-info">Teaching Assistant (Graduate Level) | Fall 2020</p>
-            </div>
+                    <h4>ECON 2: Introduction to Macroeconomics</h4>
+                    <ul class="course-list">
+                        <li>Winter 2024</li>
+                        <li>Summer 2024</li>
+                        <li>Summer 2025</li>
+                    </ul>
 
-            <div class="teaching-item">
-                <h3>Empirical Econometrics</h3>
-                <p class="course-info">Teaching Assistant (Graduate Level) | Spring 2020</p>
-            </div>
-        </section>
+                </div>
+            </section>
 
-        <!-- University of Tehran -->
-        <section>
-            <h2>University of Tehran</h2>
-            
-            <div class="teaching-item">
-                <h3>Mathematics for Economists</h3>
-                <p class="course-info">Teaching Assistant (Undergraduate) | Fall 2016</p>
-            </div>
+            <!-- Sharif University -->
+            <section class="content-section">
+                <h2>Sharif University of Technology</h2>
+                <div class="section-content teaching-simple">
+                    
+                    <h3>Graduate Courses</h3>
 
-            <div class="teaching-item">
-                <h3>Principles of Economics</h3>
-                <p class="course-info">Teaching Assistant (Undergraduate) | Fall 2015</p>
-            </div>
-        </section>
+                    <h4>Microeconomics</h4>
+                    <ul class="course-list">
+                        <li>Spring 2021</li>
+                    </ul>
+
+                    <h4>Macroeconomics</h4>
+                    <ul class="course-list">
+                        <li>Fall 2020</li>
+                    </ul>
+
+                    <h4>Empirical Econometrics</h4>
+                    <ul class="course-list">
+                        <li>Spring 2020</li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- University of Tehran -->
+            <section class="content-section">
+                <h2>University of Tehran</h2>
+                <div class="section-content teaching-simple">
+                    
+                    <h3>Undergraduate Courses</h3>
+
+                    <h4>Mathematics for Economists</h4>
+                    <ul class="course-list">
+                        <li>Fall 2016</li>
+                    </ul>
+
+                    <h4>Principles of Economics</h4>
+                    <ul class="course-list">
+                        <li>Fall 2015</li>
+                    </ul>
+
+                </div>
+            </section>
+
+        </div>
     </main>
 
-    <footer>
+    <!-- Footer -->
+    <footer id="footer" class="site-footer">
         <div class="container">
-            <p>&copy; 2025 Sajad Tahavori. All rights reserved.</p>
+            <p>&copy; <span id="year"></span> Your Name</p>
+            <p><a href="terms.html">Terms &amp; Conditions</a></p>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
