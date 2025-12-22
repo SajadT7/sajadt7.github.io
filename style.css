@@ -107,7 +107,8 @@ a:hover {
 }
 
 .menu-toggle {
-    display: none;
+    display: none !important;
+    visibility: hidden;
 }
 
 /* ===================================
