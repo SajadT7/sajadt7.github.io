@@ -1,123 +1,110 @@
-# Portfolio Website
+# Sajad Tahavori - Academic Website
 
-A clean, professional portfolio website inspired by academic/professional portfolio designs.
+Personal academic website for Sajad Tahavori, Ph.D. Candidate in Economics at UC Santa Cruz.
 
-## Features
+## 🌐 Live Website
+https://sajadt7.github.io/SajadTahavori.github.io/
 
-- Responsive design (mobile, tablet, desktop)
-- Clean and professional layout
-- Smooth scrolling navigation
-- Mobile-friendly menu
-- Accessible (skip links, ARIA labels)
-- Easy to customize
+## 📁 Files Included
 
-## Files Included
-
-- `index.html` - Home page with introduction
-- `research.html` - Research page with publications and working papers
-- `teaching.html` - Teaching page with courses and experience
-- `style.css` - All styling for all pages
-- `script.js` - Interactive functionality
-- `terms.html` - Terms & Conditions page
-- `profile.svg` - Placeholder for your profile image
+- `index.html` - Homepage with bio and research preview
+- `research.html` - Research interests and working papers
+- `teaching.html` - Teaching experience (formatted like Guanghong Xu's site)
+- `terms.html` - Terms & Conditions
+- `style.css` - Complete styling for all pages
+- `script.js` - JavaScript for menu and dynamic elements
+- `CV.pdf` - Your curriculum vitae (upload this file)
+- `Sajad-profile.png` - Your profile photo
 - `README.md` - This file
 
-## Setup Instructions
+## 🚀 How to Deploy
 
-### 1. Add Your Profile Image
-- Replace `profile.jpg` with your own photo
-- Recommended size: 500x500 pixels or larger (square format works best)
+### Option 1: Direct Upload to GitHub (Easiest)
 
-### 2. Customize Your Information
+1. Go to your repository: https://github.com/SajadT7/SajadTahavori.github.io
+2. Click "Add file" → "Upload files"
+3. Drag and drop ALL the files from this package
+4. Add commit message: "Update website with CV tab and new design"
+5. Click "Commit changes"
+6. Wait 2-3 minutes for GitHub Pages to rebuild
+7. Visit: https://sajadt7.github.io/SajadTahavori.github.io/
 
-Edit `index.html` and replace the placeholder text:
+### Option 2: Using Git Command Line
 
-**In the intro section:**
-- Replace "Your Name" with your actual name
-- Update "[Your Title]" with your position
-- Update "[Your Organization]" with your company/university
-- Update "[Your Degree]" with your credentials
-- Fill in your research interests and background
-- Update email address
-
-**In the sections:**
-- Add your research papers and publications
-- Add your teaching experience
-- Add your projects
-- Update social media links
-
-### 3. Customize Colors (Optional)
-
-Edit `style.css` to change the color scheme:
-- Primary color: `#0066cc` (blue links and accents)
-- Background: `#fff` (white)
-- Text: `#333` (dark gray)
-
-Find and replace these hex codes to change the theme.
-
-## Publishing to GitHub Pages
-
-1. Create a new repository on GitHub (e.g., `yourusername.github.io`)
-2. Upload all files to the repository
-3. Go to Settings → Pages
-4. Select "Deploy from a branch"
-5. Choose "main" branch and "/ (root)" folder
-6. Click Save
-
-Your site will be live at `https://yourusername.github.io`
-
-## File Structure for GitHub
-
-```
-your-repository/
-├── index.html          # Home page
-├── research.html       # Research page
-├── teaching.html       # Teaching page
-├── terms.html          # Terms & Conditions
-├── style.css           # Styles for all pages
-├── script.js           # JavaScript functionality
-├── profile.svg         # Your profile image
-└── README.md           # This file
+```bash
+cd SajadTahavori.github.io
+# Copy all files from this package into the repository folder
+git add .
+git commit -m "Update website with CV tab and new design"
+git push origin main
 ```
 
-## Sections to Customize
+## ✨ What's New
 
-### Home Page (index.html)
-1. **Header Navigation**: Already set up with links to all pages
-2. **Introduction**: Your bio and background
-3. **Projects**: Describe your current projects
+- ✅ **CV Tab** added to navigation menu (opens PDF in new tab)
+- ✅ **Teaching page** formatted like Guanghong Xu's style
+- ✅ **Responsive design** works on all devices
+- ✅ **All your information** from your CV
+- ✅ **Mobile menu** for small screens
+- ✅ **Professional styling** with UCSC colors
 
-### Research Page (research.html)
-1. **Working Papers**: Add your ongoing research
-2. **Publications**: List your published work
-3. **Work in Progress**: Early-stage projects
-4. **Research Interests**: Your fields and methods
+## 📝 Important: Upload Your CV
 
-### Teaching Page (teaching.html)
-1. **Teaching Philosophy**: Your approach to teaching
-2. **Current Courses**: Classes you're teaching now
-3. **Past Courses**: Previous teaching experience
-4. **TA Experience**: Teaching assistant positions
-5. **Guest Lectures**: Workshops and presentations
-6. **Teaching Resources**: Materials you've created
-7. **Student Feedback**: Your teaching evaluations
+Don't forget to upload your `CV.pdf` file to the repository! The CV tab links to this file.
 
-## Tips
+## 🎨 Customization
 
-- Keep content concise and professional
-- Use high-quality images
-- Test on mobile devices
-- Add actual links to your papers/projects
-- Update regularly with new achievements
+### Change Colors
 
-## Browser Support
+Edit `style.css` and find these colors:
+- Primary: `#003660` (UCSC blue)
+- Accent: `#fdb515` (UCSC gold)
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Mobile browsers
+### Update Content
 
-## License
+- **Homepage**: Edit `index.html`
+- **Research**: Edit `research.html`
+- **Teaching**: Edit `teaching.html`
 
-Free to use and modify for personal and commercial purposes.
+### Update Profile Photo
+
+Replace `Sajad-profile.png` with your photo (recommended: 500x500px or larger)
+
+## 📱 Features
+
+- Sticky navigation header
+- Mobile-responsive menu
+- Skip links for accessibility
+- Clean, professional design
+- Fast loading times
+- SEO-friendly structure
+
+## 🔧 Troubleshooting
+
+**Website shows 404?**
+- Ensure all files are in the root directory
+- Check GitHub Pages settings (Settings → Pages → Source: main branch, root folder)
+- Wait 2-5 minutes after uploading
+
+**CV link doesn't work?**
+- Make sure `CV.pdf` is uploaded to the repository
+- Check the filename is exactly `CV.pdf` (case-sensitive)
+
+**Menu doesn't work on mobile?**
+- Make sure `script.js` is uploaded
+- Clear your browser cache
+
+## 📞 Support
+
+For questions about your website, contact Sajad Tahavori at stahavor@ucsc.edu
+
+---
+
+## 🎓 About
+
+**Name:** Sajad Tahavori  
+**Position:** Ph.D. Candidate in Economics  
+**Institution:** University of California, Santa Cruz  
+**Research Interests:** Applied Econometrics, Public Economics, Energy Economics
+
+Last updated: December 2025
