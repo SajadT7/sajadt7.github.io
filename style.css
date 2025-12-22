@@ -306,6 +306,11 @@ a:hover {
     line-height: 1.6;
 }
 
+.paper-list li:first-line {
+    font-weight: 700;
+    font-style: italic;
+}
+
 .paper-list li:last-child {
     margin-bottom: 0;
 }
