@@ -31,19 +31,26 @@ a:hover {
 /* ===================================
    Skip Links (Accessibility)
    =================================== */
+/* Skip links (Accessibility) */
 .skip-link {
     position: absolute;
-    top: -40px;
-    left: 0;
+    left: -999px;
+    top: 10px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
     background: #000;
     color: #fff;
-    padding: 8px;
-    text-decoration: none;
-    z-index: 100;
+    padding: 10px 12px;
+    border-radius: 6px;
+    z-index: 1000;
 }
 
 .skip-link:focus {
-    top: 0;
+    left: 12px;   /* visible only when focused (Tab) */
+    width: auto;
+    height: auto;
+    overflow: visible;
 }
 
 /* ===================================
