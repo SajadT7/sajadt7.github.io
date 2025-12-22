@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sajad Tahavori - Portfolio</title>
+    <title>Sajad Tahavori - Economics PhD Candidate</title>
+    <meta name="description" content="Sajad Tahavori - Ph.D. Candidate in Economics at UC Santa Cruz">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,7 @@
     <header class="site-header">
         <div class="container">
             <div class="site-branding">
-                <a href="/" class="site-title">Sajad Tahavori</a>
+                <a href="index.html" class="site-title">Sajad Tahavori</a>
             </div>
             
             <nav id="site-nav" class="main-navigation">
@@ -26,9 +27,10 @@
                     <span></span>
                 </button>
                 <ul class="nav-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="research.html">Research</a></li>
                     <li><a href="teaching.html">Teaching</a></li>
+                    <li><a href="CV.pdf" target="_blank">CV</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,33 +39,66 @@
     <!-- Main Content -->
     <main id="main" class="site-main">
         <div class="container">
-            <div class="intro-section">
-                <div class="profile-image">
-                    <img src="Sajad-profile.png" alt="Sajad Tahavori">
-                </div>
-                
+            <!-- Introduction Section -->
+            <section class="intro-section">
                 <div class="intro-content">
+                    <div class="intro-text">
+                        <h1>Sajad Tahavori</h1>
+                        <p class="title">Ph.D. Candidate in Economics</p>
+                        <p class="affiliation">University of California, Santa Cruz</p>
+                        
+                        <div class="contact-info">
+                            <p><strong>Email:</strong> <a href="mailto:stahavor@ucsc.edu">stahavor@ucsc.edu</a></p>
+                            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/Sajad-Tahavoi" target="_blank">Sajad-Tahavoi</a></p>
+                        </div>
+                    </div>
                     
-                    
-                    <p>I'm a third year Ph.D. student in Economics at <a href="#">University of California, Santa Cruz</a>.</p>
-                    
-                    <p>My research lies at the intersection of applied econometrics, public economics, and labor economics, with a particular focus on immigration enforcement and local labor markets. I study issues related to immigration policy, crime, school choice, and demographic change.</p>
-                    
-                    <p>I was also a Research Assistant at <a href="#">Sharif University of Technology</a>. My work involved data analysis and structural modeling in the context of energy subsidy reform.</p>
-                    
-                    <p class="contact-info">
-                        <strong>Email:</strong> <a href="mailto:stahavor@ucsc.edu">stahavor@ucsc.edu</a>
-                    </p>
-
-                    <div class="social-links">
-                        <strong>Follow:</strong>
-                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
-                        <a href="feed.xml" aria-label="RSS Feed">Feed</a>
+                    <div class="intro-image">
+                        <img src="Sajad-profile.png" alt="Sajad Tahavori">
                     </div>
                 </div>
-            </div>
+                
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>I am a Ph.D. candidate in Economics at the University of California, Santa Cruz. My research interests lie in Applied Econometrics, Public Economics, and Energy Economics.</p>
+                    
+                    <p>I use advanced econometric methods including causal inference, causal machine learning, and structural modeling to address important policy questions in immigration, education, and energy consumption.</p>
+                </div>
+            </section>
 
-            
+            <!-- Research Preview Section -->
+            <section class="content-section">
+                <h2>Working Papers</h2>
+                <div class="section-content">
+                    <div class="paper-item">
+                        <h3>The Effect of Immigration Enforcement on Demographic Composition and Labor Market Outcomes</h3>
+                        <p class="paper-meta">2025</p>
+                    </div>
+
+                    <div class="paper-item">
+                        <h3>Crime Risk, School Choice, and Enrollment: A Structural Analysis</h3>
+                        <p class="paper-meta">2025</p>
+                    </div>
+
+                    <div class="paper-item">
+                        <h3>Heterogeneity in Household Energy Income Elasticity Using Quantile Panel-IV</h3>
+                        <p class="paper-meta">Master Thesis, 2022</p>
+                    </div>
+                </div>
+                <p><a href="research.html" class="btn-link">View All Research →</a></p>
+            </section>
+
+            <!-- Awards Section -->
+            <section class="content-section">
+                <h2>Recent Awards</h2>
+                <div class="section-content">
+                    <ul class="awards-list">
+                        <li><strong>Eileen Brooks Memorial Award</strong> – Best PhD Second-Year Paper (2025)</li>
+                        <li><strong>National Economics Olympiad</strong> – 5th Place Nationwide (2018)</li>
+                        <li><strong>Undergraduate Honors</strong> – Ranked 3rd among all Economics students (2018)</li>
+                    </ul>
+                </div>
+            </section>
         </div>
     </main>
 
