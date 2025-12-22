@@ -415,13 +415,16 @@ a:hover {
     }
 
     .menu-toggle {
-        display: flex;
-        flex-direction: column;
-        background: none;
-        border: none;
-        cursor: pointer;
-        padding: 5px;
-    }
+    display: flex;
+    visibility: visible;
+    flex-direction: column;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
 
     .menu-toggle span {
         width: 25px;
