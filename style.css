@@ -178,20 +178,49 @@ a:hover {
 }
 
 /* ===================================
-   Research Page - Reference Style
+   Research & Teaching Pages - H2
    =================================== */
 .container h2 {
     font-size: 1.5rem;
     font-weight: 600;
     color: #222;
     margin-bottom: 1.5rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
 }
 
 .container h2:first-child {
     margin-top: 0;
 }
 
+/* ===================================
+   Teaching & Research Pages - H3
+   =================================== */
+.container h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ===================================
+   Lists
+   =================================== */
+.container ul {
+    list-style: disc;
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.container li {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 0.25rem;
+}
+
+/* ===================================
+   Research Page - Paper List
+   =================================== */
 .paper-list {
     list-style: none;
     margin: 0;
@@ -214,37 +243,6 @@ a:hover {
 .paper-list strong {
     color: #222;
     font-weight: 600;
-}
-
-/* ===================================
-   Teaching Page - Reference Style
-   =================================== */
-.container h3 {
-    font-size: 1.25rem;
-    font-weight: 600;
-    color: #333;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-}
-
-.container h4 {
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #333;
-    margin-top: 1.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.container ul {
-    list-style: disc;
-    margin-left: 1.5rem;
-    margin-bottom: 1rem;
-}
-
-.container li {
-    color: #333;
-    line-height: 1.6;
-    margin-bottom: 0.25rem;
 }
 
 /* ===================================
@@ -347,10 +345,6 @@ a:hover {
     }
 
     .container h3 {
-        font-size: 1.15rem;
-    }
-
-    .container h4 {
         font-size: 1rem;
     }
 }
