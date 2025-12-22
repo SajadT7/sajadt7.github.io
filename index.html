@@ -3,81 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sajad Tahavori | UC Santa Cruz</title>
+    <title>Your Name - Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Sidebar -->
-    <div class="sidebar">
-        <div class="sidebar-content">
-            <div class="profile-section">
-                <img src="Sajad-profile.png" alt="Sajad Tahavori" class="profile-image">
-                <h3 class="profile-name">Sajad Tahavori</h3>
-                <p class="profile-title">Economics Ph.D. Candidate at UCSC</p>
+    <!-- Skip Links -->
+    <a href="#site-nav" class="skip-link">Skip to primary navigation</a>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <a href="#footer" class="skip-link">Skip to footer</a>
+
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container">
+            <div class="site-branding">
+                <a href="/" class="site-title">Your Name</a>
             </div>
             
-            <div class="contact-links">
-                <p class="location">📍 Santa Cruz, CA, USA</p>
-                <p><a href="mailto:stahavor@ucsc.edu">📧 Email</a></p>
-                <p><a href="https://www.linkedin.com/in/Sajad-Tahavoi" target="_blank">🔗 LinkedIn</a></p>
-            </div>
-            
-            <nav class="sidebar-nav">
-                <ul>
-                    <li><a href="index.html" class="active">Home</a></li>
+            <nav id="site-nav" class="main-navigation">
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="research.html">Research</a></li>
                     <li><a href="teaching.html">Teaching</a></li>
-                    <li><a href="CV.pdf" target="_blank">Curriculum Vitae</a></li>
+                    <li><a href="#projects">Projects</a></li>
                 </ul>
             </nav>
         </div>
-    </div>
+    </header>
 
     <!-- Main Content -->
-    <div class="main-content">
-        <div class="content-wrapper">
-            <h1>Welcome to my website!</h1>
-            
-            <p>I am a Ph.D. candidate in Economics at the University of California, Santa Cruz. My research interests lie in Applied Econometrics, Public Economics, and Energy Economics.</p>
-            
-            <p>My work leverages causal inference methods, causal machine learning, and structural modeling to explore how policies influence demographic composition, educational choices, and energy consumption patterns. By generating evidence-based insights, I aim to inform the design of more effective and equitable public and economic policies.</p>
-            
-            <h2>Working Papers</h2>
-            
-            <div class="paper-entry">
-                <h3>The Effect of Immigration Enforcement on Demographic Composition and Labor Market Outcomes</h3>
-                <p class="paper-year">2025</p>
-                <p>This paper examines how immigration enforcement policies affect demographic composition and labor market outcomes using causal inference methods and administrative data.</p>
+    <main id="main" class="site-main">
+        <div class="container">
+            <div class="intro-section">
+                <div class="profile-image">
+                    <img src="profile.svg" alt="Your Name">
+                </div>
+                
+                <div class="intro-content">
+                    <h1>Welcome!</h1>
+                    
+                    <p>I'm a [Your Title] at <a href="#">[Your Organization]</a>, with a [Your Degree] from [Your University].</p>
+                    
+                    <p>My research lies at the intersection of [Field 1], [Field 2], and [Field 3], with a particular focus on [your focus area]. I study issues related to [topic 1], [topic 2], [topic 3], and [topic 4].</p>
+                    
+                    <p>I was also a [Previous Position] at <a href="#">[Previous Organization]</a>. [Add any relevant experience or background information here].</p>
+                    
+                    <p class="contact-info">
+                        <strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a>
+                    </p>
+
+                    <div class="social-links">
+                        <strong>Follow:</strong>
+                        <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                        <a href="#" aria-label="Twitter">Twitter</a>
+                        <a href="#" aria-label="GitHub">GitHub</a>
+                        <a href="feed.xml" aria-label="RSS Feed">Feed</a>
+                    </div>
+                </div>
             </div>
-            
-            <div class="paper-entry">
-                <h3>Crime Risk, School Choice, and Enrollment: A Structural Analysis</h3>
-                <p class="paper-year">2025</p>
-                <p>This study develops and estimates a structural model of school choice that incorporates crime risk as a key factor in parental decision-making.</p>
-            </div>
-            
-            <div class="paper-entry">
-                <h3>Heterogeneity in Household Energy Income Elasticity Using Quantile Panel-IV</h3>
-                <p class="paper-year">Master Thesis, 2022</p>
-                <p>This thesis investigates heterogeneity in household energy demand across the income distribution using quantile panel instrumental variables methods.</p>
-            </div>
-            
-            <h2>Recent Awards</h2>
-            <ul class="awards-list">
-                <li><strong>Eileen Brooks Memorial Award</strong> – Best PhD Second-Year Paper (2025)</li>
-                <li><strong>National Economics Olympiad</strong> – 5th Place Nationwide (2018)</li>
-                <li><strong>Undergraduate Honors</strong> – Ranked 3rd among all Economics students (2018)</li>
-            </ul>
-            
-            <h2>References</h2>
-            <ul class="reference-list">
-                <li>Available upon request</li>
-            </ul>
+
+            <!-- Projects Section -->
+            <section id="projects" class="content-section">
+                <h2>Projects</h2>
+                <div class="section-content">
+                    <div class="project-item">
+                        <h3>Project Title 1</h3>
+                        <p>Brief description of the project, its goals, methodology, and outcomes.</p>
+                    </div>
+                    <div class="project-item">
+                        <h3>Project Title 2</h3>
+                        <p>Brief description of the project, its goals, methodology, and outcomes.</p>
+                    </div>
+                </div>
+            </section>
         </div>
-        
-        <footer class="site-footer">
-            <p>© 2025 Sajad Tahavori</p>
-        </footer>
-    </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="site-footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Your Name</p>
+            <p><a href="terms.html">Terms &amp; Conditions</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
