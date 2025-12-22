@@ -12,8 +12,9 @@ All files needed for your website:
 4. **style.css** - All styling for the entire site
 5. **script.js** - Interactive functionality (mobile menu, etc.)
 6. **terms.html** - Terms & Conditions page
-7. **1.png** - Your profile photo (you need to upload this)
-8. **README.md** - This file
+7. **CV.pdf** - Your curriculum vitae (you need to upload this)
+8. **1.png** - Your profile photo (you need to upload this)
+9. **README.md** - This file
 
 ## ✨ Features
 
@@ -42,6 +43,7 @@ All files needed for your website:
    - style.css
    - script.js
    - terms.html
+   - CV.pdf (your curriculum vitae)
    - 1.png (your photo)
    - README.md
 3. Click **"Commit changes"**
@@ -59,6 +61,16 @@ You uploaded a photo named `1.png`. Make sure to:
 1. Include it when uploading to GitHub
 2. Keep the filename as `1.png` (or update line 41 in index.html if different)
 3. Recommended size: 400x400 pixels or larger
+
+## 📄 Adding Your CV
+
+Your CV should be uploaded as `CV.pdf`:
+1. Save your CV as **CV.pdf** (exact filename, capital letters)
+2. Upload it to GitHub in the same folder as index.html
+3. The CV link in the navigation menu will automatically work
+4. Visitors can click "CV" in the menu to download/view your CV
+
+**Note:** The CV you shared earlier can be used - just rename it to `CV.pdf` when uploading.
 
 ## ✏️ Customization
 
@@ -120,6 +132,7 @@ your-repository/
 ├── style.css          # All styles
 ├── script.js          # JavaScript
 ├── terms.html         # Terms page
+├── CV.pdf            # Your curriculum vitae
 ├── 1.png             # Your photo
 └── README.md         # Instructions
 ```
@@ -159,11 +172,12 @@ To update content:
 
 Before going live, make sure:
 - [ ] All files are uploaded
+- [ ] Your CV (CV.pdf) is included
 - [ ] Your photo (1.png) is included
 - [ ] Bio and contact info are updated
 - [ ] Research papers are listed
 - [ ] Teaching experience is current
-- [ ] All links work
+- [ ] All links work (including CV link)
 - [ ] Tested on mobile device
 - [ ] Shared link with colleagues for feedback
 

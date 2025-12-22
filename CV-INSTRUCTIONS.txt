@@ -1,0 +1,16 @@
+CV FILE INSTRUCTIONS
+====================
+
+You need to upload your CV as "CV.pdf" to your GitHub repository.
+
+The navigation menu on all pages now includes a "CV" link that will open your CV PDF file.
+
+STEPS:
+1. Save your CV as "CV.pdf" (exact filename, capital letters)
+2. Upload CV.pdf to your GitHub repository (same folder as index.html)
+3. The CV link in the navigation will automatically work
+
+The CV you uploaded earlier in our conversation can be used - just make sure it's named "CV.pdf" when you upload it to GitHub.
+
+If you want to use a different filename, update these lines in all HTML files:
+- Change <a href="CV.pdf">CV</a> to your filename
