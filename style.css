@@ -143,15 +143,14 @@ a:hover {
 }
 
 .profile-image {
-    width: 200%;
+    width: 200px;
 }
 
 .profile-image img {
-    width: 200%;
+    width: 100%;
     height: auto;
     border-radius: 4px;
 }
-
 .profile-details {
     display: flex;
     flex-direction: column;
