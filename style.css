@@ -143,11 +143,11 @@ a:hover {
 }
 
 .profile-image {
-    width: 100%;
+    width: 200%;
 }
 
 .profile-image img {
-    width: 100%;
+    width: 200%;
     height: auto;
     border-radius: 4px;
 }
